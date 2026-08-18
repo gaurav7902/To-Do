@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do</title>
+        <script type="module" src="/src/main.ts" defer></script>
+        <style>
+            #list {
+                list-style-type: none;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="list"></ul>
+
+        <form id="new-task-form">
+            <input
+                type="text"
+                id="task-input"
+                placeholder="Enter a new task"
+                required />
+            <button type="submit">Add Task</button>
+        </form>
+    </body>
+</html>
